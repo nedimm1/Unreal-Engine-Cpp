@@ -13,7 +13,8 @@ int main(){
     const int a = 4;
     const int b = 3;
     const int c = 2;
-
+    //note: with the const keyword, we signal our intention to ourselvs and anybody who reads our code
+    //note2: we never want this variable to change its value after its decleration
     const int sum = a + b + c;
     const int product = a * b * c;
 
